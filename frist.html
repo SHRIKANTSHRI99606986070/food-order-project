@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="sliver spoon" content="width=, initial-scale=5.0">
+    <title> sliver spoon </title> 
+<link rel="stylesheet" href=" css\first.css ">
+</head>
+<body>
+    
+    <div class="first-page">
+ <div class="form">
+ <form  method="post" action="#"></form>
+
+     <form class="register-form"></form>
+        <input type="text"placeholder="user name"/>
+        <input type="text"placeholder="password"/>
+        <input type="text"placeholder="email-id"/>
+        <button>verify</button>
+        <p class="message">ALREADY REGISTERED? <a href="#">login </a> </p>
+        </form>
+
+     </form>
+     <form  method="post" action="#">
+     
+     <form class="login-form" >
+         <input type="text"placeholder="user name"/>
+         <input type="password"placeholder="password"/>
+         <input type="text"placeholder="email-id"/>
+         <button>login</button>
+         <p class="message">NOT REGISTERED? <a href="#">register </a> <!-- BE SMILING !--> </p>
+        </form>
+     </div>
+    </div>
+
+  <script src= 'https://code.jquery.com/jquery-3.6.0.min.js'>
+</script>
+<script> 
+$('.message a').click(function(){
+    $('form').animate({height:"toggle",opacity:"toggle"},"slow");
+    });
+</script>
+</form> 
+
+
+</body>
+</html>
